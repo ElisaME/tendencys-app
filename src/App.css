@@ -1,0 +1,27 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  width: 100%;
+}
+/* Estilos para la barra de desplazamiento */
+  /* Estilos para la barra de desplazamiento en navegadores webkit (Chrome, Safari) */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #d1d1d1;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #d1d1d1;
+  }
+
+  /* Estilos para la barra de desplazamiento en navegadores Firefox */
+  /* Ajusta estos estilos según tus necesidades */
+  /* Por ejemplo, los navegadores Firefox en macOS tienen una apariencia diferente */
+  /* Puedes utilizar herramientas de desarrollo para inspeccionar y ajustar la apariencia según tus preferencias */
+  /* scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1; */
